@@ -19,9 +19,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Image slideshow
     const slideshowImages = [
-        "url_of_image1.jpg",
-        "url_of_image2.jpg",
-        "url_of_image3.jpg"
+        "images/landingPage/jobaer-ahmed-cover.jpg",
+        "images/landingPage/jobaer-logo.png",
+        "images/landingPage/jubuLightHouse.jpg"
     ];
 
     const slideshow = document.getElementById("slideshow");
