@@ -1,5 +1,5 @@
-// Smooth scrolling for navigation links
 document.addEventListener("DOMContentLoaded", function () {
+    // Smooth scrolling for navigation links
     const navLinks = document.querySelectorAll("nav a");
 
     navLinks.forEach(link => {
@@ -16,4 +16,22 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     });
+
+    // Image slideshow
+    const slideshowImages = [
+        "url_of_image1.jpg",
+        "url_of_image2.jpg",
+        "url_of_image3.jpg"
+    ];
+
+    const slideshow = document.getElementById("slideshow");
+    let currentIndex = 0;
+
+    function changeSlide() {
+        slideshow.src = slideshowImages[currentIndex];
+        currentIndex = (currentIndex + 1) % slideshowImages.length;
+    }
+
+    setInterval(changeSlide, 3000); // Change image every 3 seconds
 });
+

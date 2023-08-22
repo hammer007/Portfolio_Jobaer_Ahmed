@@ -18,7 +18,7 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center; /* Center the navigation items */
+    justify-content: center;
 }
 
 nav li {
@@ -35,13 +35,21 @@ main {
     padding: 2rem;
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column; /* Display navigation items in a column on smaller screens */
-    }
-    nav li {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
+.slideshow-container {
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#slideshow {
+    width: 100%;
+    height: auto;
+    animation: fade 3s infinite;
+}
+
+@keyframes fade {
+    0% { opacity: 0.4; }
+    20% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 0.4; }
 }
