@@ -18,6 +18,7 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
+    justify-content: center; /* Center the navigation items */
 }
 
 nav li {
@@ -30,6 +31,17 @@ nav a {
     font-weight: bold;
 }
 
-section {
+main {
     padding: 2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Display navigation items in a column on smaller screens */
+    }
+    nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
 }
