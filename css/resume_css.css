@@ -146,7 +146,7 @@ h3 {
     position: absolute;
     top: 7%;
     left: 5%;
-    height: 1361px;
+    height: 1335px;
     width: 350px;
     background-color: #f9bc2f;
     padding: 320px 30px 50px;
@@ -203,16 +203,20 @@ h3 {
     background-size: cover !important;
 }
 
-.social.twitter:before {
-    background: url('https://cdn3.iconfinder.com/data/icons/social-media-2026/60/Socialmedia_icons_Twitter-07-128.png') center no-repeat;
+.social.address:before {
+    background: url('https://www.iconfinder.com/icons/299061/download/png/64') center no-repeat;
 }
 
-.social.pinterest:before {
-    background: url('https://cdn3.iconfinder.com/data/icons/social-media-2026/60/Socialmedia_icons_Pinterest-23-128.png') center no-repeat;
+.social.email:before {
+    background: url('https://www.iconfinder.com/icons/7089163/download/png/64') center no-repeat;
+}
+
+.social.github:before {
+    background: url('https://www.iconfinder.com/icons/2993772/download/png/64') center no-repeat;
 }
 
 .social.linked-in:before {
-    background: url('https://cdn3.iconfinder.com/data/icons/social-media-2026/60/Socialmedia_icons_LinkedIn-128.png') center no-repeat;
+    background: url('https://www.iconfinder.com/icons/4102586/download/png/64') center no-repeat;
 }
 
 .side-header {
