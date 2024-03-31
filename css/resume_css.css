@@ -63,7 +63,7 @@ body:before {
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #cd853f;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -71,7 +71,7 @@ body:before {
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color: #7a3516;
 }
 
 .download-btn-container {
@@ -204,19 +204,19 @@ h3 {
 }
 
 .social.address:before {
-    background: url('https://www.iconfinder.com/icons/299061/download/png/64') center no-repeat;
+    background: url('../assets/icons/address-icon.png') center no-repeat;
 }
 
 .social.email:before {
-    background: url('https://www.iconfinder.com/icons/7089163/download/png/64') center no-repeat;
+    background: url('../assets/icons/email-icon.png') center no-repeat;
 }
 
 .social.github:before {
-    background: url('https://www.iconfinder.com/icons/2993772/download/png/64') center no-repeat;
+    background: url('../assets/icons/github-icon.png') center no-repeat;
 }
 
 .social.linked-in:before {
-    background: url('https://www.iconfinder.com/icons/4102586/download/png/64') center no-repeat;
+    background: url('../assets/icons/linkedin-icon.png') center no-repeat;
 }
 
 .side-header {
